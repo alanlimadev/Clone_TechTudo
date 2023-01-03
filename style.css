@@ -1,112 +1,98 @@
-.topo1{
-    background-color: #333;
-    padding: 0.1rem;
-    color: #ffffff;
-    text-align: center;
-    text-indent: 0;
-    margin: 0;
-}
-
-.topo2{
-    height: 0.4rem;
-    background-color: #fd8a24;
-}
-
-.titulo{
-    margin: 3rem 24rem 2.5rem;
-    font-size: 2.9rem;
-    font-weight: 600;
-    color: #111;
-}
-.subtitulo{
-    margin: 0rem 24rem 1rem;
-    font-size: 1.15rem;  
-}
-
-.autor{
-    margin: 0rem 24rem 0.8rem;
-    font-size: 0.8rem;
-    font-weight: 600;
-}
-
-.atualizacao{
-    margin: 0rem 24rem 1.35rem;
-    font-size: 0.6rem;
-}
-
-.contato{
-    margin: 0rem 24rem;
-}
-
-.contatoespacamento{
-    margin-right: 1rem;
-}
-
-.redesocial{
-    width: 1rem;
-}
-
-#traco{
-    background-color: #555;
-    height: 0.05rem;
-    margin: 0.8rem 24rem;
-}
-
-#conteudo{
-    margin: 0rem 29rem;
-    text-align: justify;
-}
-
-.links{
-    color: #fd8a24;
-    font-weight: 900;
-    margin: 2rem;
-}
-
-.imagens{
-    margin: auto;
-    text-align: center;
-}
-
-.descricao{
-    margin: 1rem 0rem 1rem 0rem;
-    text-indent: 1.9rem;
-    font-size: 0.7rem;
-}
-
-.primeiro-paragrafo{
-    margin-top: 1rem;
-}
-
-.final{
-    width: 100%;
-    height: 5rem;
-    background-color: #333;
-}
-
-img{
-    width: 90%;
-    height: 100%;
-}
-
 body{
+    font-family: 'Open Sans';
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
-}
-
-p{
-    margin: 2rem;
     color: #555;
 }
 
-h3{
-    font-weight: 900;
-    text-indent: 2.5rem;
+h1, h2{
+    color: #111;
 }
 
-a{
+a {
     color: #fd8a24;
     text-decoration: none;
-    font-weight: 900;
+    font-weight: 700;
+}
+
+p{
+    font-size: 20px;
+    line-height: 32px;
+    text-align: justify;
+}
+
+figure{
+    padding: 0;
+    margin: 40px 0;
+    font-size: 12px;
+}
+
+figure>img{
+    width: 100%;
+}
+
+ol{
+    list-style: none;
+    padding: 0;
+}
+
+.topo{
+    padding: 9.5px;
+    background-color: #333;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 5px solid #fd8a24;
+}
+
+.corpo{
+    max-width: 888px;
+    margin: auto;
+    padding: 30px;
+}
+
+.titulo{
+    font-size: 50px;
+    line-height: 64px;
+}
+
+.subtitulo{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.autor{
+    font-weight: 700;
+    font-size: 0.8em;
+}
+
+.redes-sociais {
+    margin-top: 10px;
+}
+
+.icone {
+    width: 20px;
+    padding: 10px 10px 10px 0;
+}
+
+.linha-horizontal{
+    background-color: #555;
+    width: 100%;
+    height: 1px;
+}
+
+.conteudo{
+    max-width: 648px;
+    margin: auto;
+}
+
+.links{
+    font-size: 20px;
+    margin: 30px 0;
+}
+
+.rodape{
+    background-color: #333;
+    height: 100px;
 }
