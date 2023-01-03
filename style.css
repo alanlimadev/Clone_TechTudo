@@ -1,0 +1,112 @@
+.topo1{
+    background-color: #333;
+    padding: 0.1rem;
+    color: #ffffff;
+    text-align: center;
+    text-indent: 0;
+    margin: 0;
+}
+
+.topo2{
+    height: 0.4rem;
+    background-color: #fd8a24;
+}
+
+.titulo{
+    margin: 3rem 24rem 2.5rem;
+    font-size: 2.9rem;
+    font-weight: 600;
+    color: #111;
+}
+.subtitulo{
+    margin: 0rem 24rem 1rem;
+    font-size: 1.15rem;  
+}
+
+.autor{
+    margin: 0rem 24rem 0.8rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.atualizacao{
+    margin: 0rem 24rem 1.35rem;
+    font-size: 0.6rem;
+}
+
+.contato{
+    margin: 0rem 24rem;
+}
+
+.contatoespacamento{
+    margin-right: 1rem;
+}
+
+.redesocial{
+    width: 1rem;
+}
+
+#traco{
+    background-color: #555;
+    height: 0.05rem;
+    margin: 0.8rem 24rem;
+}
+
+#conteudo{
+    margin: 0rem 29rem;
+    text-align: justify;
+}
+
+.links{
+    color: #fd8a24;
+    font-weight: 900;
+    margin: 2rem;
+}
+
+.imagens{
+    margin: auto;
+    text-align: center;
+}
+
+.descricao{
+    margin: 1rem 0rem 1rem 0rem;
+    text-indent: 1.9rem;
+    font-size: 0.7rem;
+}
+
+.primeiro-paragrafo{
+    margin-top: 1rem;
+}
+
+.final{
+    width: 100%;
+    height: 5rem;
+    background-color: #333;
+}
+
+img{
+    width: 90%;
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p{
+    margin: 2rem;
+    color: #555;
+}
+
+h3{
+    font-weight: 900;
+    text-indent: 2.5rem;
+}
+
+a{
+    color: #fd8a24;
+    text-decoration: none;
+    font-weight: 900;
+}
